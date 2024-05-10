@@ -517,6 +517,7 @@ public class RegisterTest {
 
         WebElement toast = AppiumDriverSetup.driver.findElement(By.xpath("//android.widget.Toast[1]"));
         assert(toast.getText().equals("Registration Successful"));
+        Thread.sleep(2000);
 
         // Turn off airplane mode after the test
         AppiumDriverSetup.driver.toggleAirplaneMode();
