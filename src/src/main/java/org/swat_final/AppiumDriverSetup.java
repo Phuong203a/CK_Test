@@ -16,7 +16,7 @@ public class AppiumDriverSetup {
         capabilities.setCapability("platformName", "Android");
 //        capabilities.setCapability("appium:deviceName", "samsung SM-A235F");
 //        capabilities.setCapability("appium:deviceName", "emulator-5554");
-        capabilities.setCapability("appium:deviceName", "Genymotion Samsung Galaxy S23");
+        capabilities.setCapability("appium:deviceName", "Pixel 3a API 34");
         capabilities.setCapability("appium:appPackage", "com.example.vamsi.login");
         capabilities.setCapability("appium:appActivity", ".MainActivity");
         capabilities.setCapability("appium:noReset", true);
